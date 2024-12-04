@@ -1,0 +1,17 @@
+body {
+    width: 100%;
+    height:100%;
+    margin: 0;
+    offset: 0;
+
+    background-color: black;
+
+    background-image: url("img/background.png");
+    background-repeat: repeat;
+}
+
+.prevent-select {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

@@ -1,11 +1,11 @@
 var dragging = false;
 
-document.addEventListener("dragstart", () => {dragging = true});
+document.addEventListener("dragstart", (e) => {dragging = true});
 
-document.addEventListener("mousemove", ()=>{
+document.addEventListener("mousemove", (e)=>{
     if (dragging) {
-        document.body.style.background-position = `top ${}px left ${}px`;
+        document.body.style.backgroundPosition = `top ${e.clientY}px left ${e.clientX}px`;
     }
 });
 
-document.addEventListener("dragend", () => {dragging = false});
+document.addEventListener("dragend", (e) => {dragging = false});

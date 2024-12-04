@@ -1,0 +1,27 @@
+{
+  "name": "complexity-incremental",
+  "version": "1.0.0",
+  "description": "an incremental/idle/factory game",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AOpaDDgw/complexity-incremental.git"
+  },
+  "keywords": [
+    "incremental",
+    "idle",
+    "factory"
+  ],
+  "author": "AOpaDDgw",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AOpaDDgw/complexity-incremental/issues"
+  },
+  "homepage": "https://github.com/AOpaDDgw/complexity-incremental#readme",
+  "dependencies": {
+    "typescript": "^5.7.2"
+  }
+}

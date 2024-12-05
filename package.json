@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/AOpaDDgw/complexity-incremental#readme",
   "dependencies": {
+    "express": "^4.21.1",
     "typescript": "^5.7.2"
   }
 }

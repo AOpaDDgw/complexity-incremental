@@ -15,3 +15,9 @@ body {
     -ms-user-select: none;
     user-select: none;
 }
+
+.box {
+    background-color: black;
+    border: solid;
+    border-color: white;
+}
